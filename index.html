@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>C85</title>
+<link rel="stylesheet" href="style.css">    
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<body class="body_background">
+<center>
+<p class="btn-primary">MINECRAFT</p>
+<button class="fedsa" data-toggle="modal" data-target="#myModal"></button>
+<div class="btn-danger" id="head_info">
+<h3>Current Width of blocks= <span id="current_width" class="ds">30</span></h3>
+<br>
+<h3>Current Height of blocks= <span id="current_height" class="ds">30</span></h3>
+<br>
+<h3>Canvas Width=1000</h3>
+<br>
+<h3>Canvas Height=800</h3>
+</div>
+<br>
+<canvas id="myCanvas" width="1000" height="650"></canvas>
+<br>
+<button class="btn btn-success" onclick="reload()">Clear Area</button>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button class="close" data-dismiss="modal">&times;</button>
+    <h2>Instructions</h2>
+    </div>
+  <div class="modal-body">
+        <h3 class="egt">Instructions</h3>
+        <br>
+        <label>If player not visible, press any arrow key</label>
+        <label>Press Shift+q to increase the size of blocks by 5 and press Shift+z to decrease the size of blocks by 5</label>
+        <br>
+        <h3 class="egt">Blocks</h3>
+        <br>
+        <span class="de">•Press  e for</span><img src="gold ore.png" class="img-responsive cds">
+        <span class="de">•Press  h for</span><img src="diamond ore.jpg" class="img-responsive cds">
+        <span class="de">•Press  i for</span><img src="cold water.jpg" class="img-responsive cds">
+        <span class="de">•Press  w for</span><img src="wall.jpg" class="img-responsive cds">
+        <br><br><br>
+        <span class="de">•Press  a for</span><img src="gravel.png" class="img-responsive cds">
+        <span class="de">•Press  y for</span><img src="yellow_wall.png" class="img-responsive cds">
+        <span class="de">•Press  u for</span><img src="unique.png" class="img-responsive cds">
+        <span class="de">•Press  m for</span><img src="granite.jpg" class="img-responsive cds">
+        <br><br><br>
+        <span class="de">•Press  p for</span><img src="pink.jpg" class="img-responsive cds">
+        <span class="de">•Press  j for</span><img src="redstone.jpg" class="img-responsive cds">
+        <span class="de">•Press  g for</span><img src="ground.png" class="img-responsive cds">
+        <span class="de">•Press  d for</span><img src="dark_green.png" class="img-responsive cds">
+        <br><br><br>
+        <span class="de">•Press  l for</span><img src="light_green.png" class="img-responsive cds">
+        <span class="de">•Press  f for</span><img src="hot lava.jpg" class="img-responsive cds">
+        <span class="de">•Press  t for</span><img src="trunk.jpg" class="img-responsive cds">
+        <span class="de">•Press r for</span><img src="roof.jpg" class="img-responsive cds">
+        <br><br><br>
+        <span class="de">•Press  c for</span><img src="cloud.jpg" class="img-responsive cds">
+        <span class="de">•Press  b for</span><img src="black_wall.jpg" class="img-responsive cds">
+        <br><br>
+    </div>
+    </div>
+    </div>
+    </div>
+</center>
+<br>
+<script src="main.js"></script>
+</body>
+</html>

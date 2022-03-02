@@ -1,0 +1,82 @@
+.body_background {
+background-image: url("https://i.ytimg.com/vi/Dg0IjOzopYU/maxresdefault.jpg");
+background-position: center;
+background-size: cover;
+}
+#myCanvas{
+border-width:10px;
+background-color: white; 
+border-style:ridge;
+}
+p{
+	border-radius: 10px;
+	padding: 5px;
+	font-variant: small-caps;
+	font-size: larger;
+	font-weight: bold;
+ }
+h3{
+	display: inline-block;
+}
+h4{
+	font-size:larger !important;
+}
+a{	
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+#head_info{
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+button{
+	width:20%;
+	height:5% !important;
+	border-radius: 5px !important;
+}
+.fedsa{
+	background-image: url("help.jpg");
+	background-size: contain	;
+	float: right !important;
+	width:50px;
+	height: 50px !important;
+	margin-bottom: 50px !important;
+}
+.cds{
+	width:40px;
+	height: 40px !important;
+	margin-left: 3px;
+	float: left;
+	margin-right: 15px;
+}
+span{
+	float:left;	
+
+}
+.de{
+	font-weight: 600;
+	font-size: 15px;
+}
+.ds{
+	float:right !important;
+}
+.modal-content{
+	height:585px !important;
+	background-color: rgb(20,245,85);
+	background-color: rgb(255,220,190) !important;
+	border-radius: 15px !important;
+	width:101% !important;
+}
+.egt{
+	font-weight: bolder;
+}
+.modal-header{
+	background-color: rgb(255,240,220) !important;
+}
+h2{
+	font-weight: 700 !important;
+}
